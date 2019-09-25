@@ -1,0 +1,393 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-25T03:57:17.910Z",
+        "line": 14,
+        "name": "Operations",
+        "description": "",
+        "id": "arithmetic-opertaions;operations;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2057700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 5 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 8
+                }
+              ],
+              "location": "Stepdef.step1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press \"Add\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Stepdef.step2(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have entered 10 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 15
+                }
+              ],
+              "location": "Stepdef.step3(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "Stepdef.step4()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The result is 15 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdef.step5(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-25T03:57:18.031Z",
+        "line": 15,
+        "name": "Operations",
+        "description": "",
+        "id": "arithmetic-opertaions;operations;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 230600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 10 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 8
+                }
+              ],
+              "location": "Stepdef.step1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press \"Sub\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sub\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Stepdef.step2(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have entered 5 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "Stepdef.step3(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "Stepdef.step4()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The result is 5 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdef.step5(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-25T03:57:18.031Z",
+        "line": 16,
+        "name": "Operations",
+        "description": "",
+        "id": "arithmetic-opertaions;operations;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 129500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 20 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 8
+                }
+              ],
+              "location": "Stepdef.step1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press \"Mul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mul\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Stepdef.step2(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have entered 30 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 15
+                }
+              ],
+              "location": "Stepdef.step3(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "Stepdef.step4()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The result is 600 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdef.step5(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-25T03:57:18.031Z",
+        "line": 17,
+        "name": "Operations",
+        "description": "",
+        "id": "arithmetic-opertaions;operations;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 80400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 20 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 8
+                }
+              ],
+              "location": "Stepdef.step1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press \"Div\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Div\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Stepdef.step2(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have entered 5 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "Stepdef.step3(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "Stepdef.step4()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The result is 4 is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdef.step5(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Arithmetic opertaions",
+    "description": "This is done to check the arithmetic operations",
+    "id": "arithmetic-opertaions",
+    "keyword": "Feature",
+    "uri": "classpath:report/outline.feature",
+    "tags": []
+  }
+]
